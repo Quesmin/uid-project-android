@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="24dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/residentNameTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/residentNameTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/residentNameTextLabel"/>
+
+    <TextView
+        android:id="@+id/residentYobTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birth Year"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/residentNameTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/residentYobTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/residentYobTextLabel"/>
+
+    <TextView
+        android:id="@+id/residentHeightTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/residentYobTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/residentHeightTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/residentHeightTextLabel"/>
+
+    <TextView
+        android:id="@+id/residentWeightTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/residentHeightTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/residentWeightTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/residentWeightTextLabel"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

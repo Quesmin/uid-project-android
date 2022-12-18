@@ -1,5 +1,6 @@
 package com.example.uid_project.ui.main.view
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -104,6 +105,12 @@ class PlanetActivity: AppCompatActivity() {
 
 //        mainListAdapter = MainListAdapter(arrayListOf())
 //        mainListView.adapter = mainListAdapter
+
+        residentsButton.setOnClickListener {
+            val intent = Intent(this, ResidentsActivity::class.java)
+            intent.putExtra("residents", residentsArray)
+            startActivity(intent)
+        }
     }
 
 

@@ -33,5 +33,9 @@ object ApiService {
         serviceBuilder.create(PlanetApi::class.java)
     }
 
+    val residentApi: ResidentApi by lazy {
+        serviceBuilder.create(ResidentApi::class.java)
+    }
+
 
 }

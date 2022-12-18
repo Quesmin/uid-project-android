@@ -8,6 +8,8 @@
     android:backgroundTintMode="src_over"
     android:clickable="true"
     android:focusable="true"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="20dp"
     >
 
     <TextView

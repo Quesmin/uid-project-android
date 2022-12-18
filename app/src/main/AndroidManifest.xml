@@ -29,6 +29,9 @@
         <activity
             android:name=".ui.main.view.PlanetActivity"/>
 
+        <activity
+            android:name=".ui.main.view.ResidentsActivity"/>
+
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
