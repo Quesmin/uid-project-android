@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planet_names">
+        <item>PLANET 1</item>
+        <item>PLANET 2</item>
+        <item>PLANET 3</item>
+    </string-array>
+
+    <string-array name="planet_population">
+        <item>123 million</item>
+        <item>123 million</item>
+        <item>123 million</item>
+    </string-array>
+
+    <integer-array name="planet_images">
+        <item>@drawable/alderaan</item>
+        <item>@drawable/alderaan</item>
+        <item>@drawable/alderaan</item>
+
+    </integer-array>
+</resources>

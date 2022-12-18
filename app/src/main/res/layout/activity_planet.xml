@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.view.PlanetActivity">
+
+
+    <ImageView
+        android:id="@+id/planetActivityImageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/tatooine"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/planetNameTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/planetActivityImageView"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetNameTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetNameTextLabel"/>
+
+
+    <TextView
+        android:id="@+id/planetPopulationTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Population"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/planetNameTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetPopulationTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetPopulationTextLabel"/>
+
+
+    <TextView
+        android:id="@+id/planetTerrainTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terrain"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/planetPopulationTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetTerrainTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetTerrainTextLabel"/>
+
+    <TextView
+        android:id="@+id/planetGravityTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/planetTerrainTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetGravityTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetGravityTextLabel"/>
+
+    <TextView
+        android:id="@+id/planetDiameterTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diameter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/planetGravityTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetDiameterTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetDiameterTextLabel"/>
+
+
+    <TextView
+        android:id="@+id/planetClimateTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Climate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/planetDiameterTextValue"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/planetClimateTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuador"
+        app:layout_constraintTop_toBottomOf="@id/planetClimateTextLabel"/>
+
+    <Button
+        android:id="@+id/planetResidentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Residents"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:layout_marginHorizontal="8dp"
+        app:layout_constraintTop_toBottomOf="@id/planetClimateTextValue"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
