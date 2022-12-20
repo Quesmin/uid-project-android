@@ -8,9 +8,18 @@
     android:backgroundTintMode="src_over"
     android:clickable="true"
     android:focusable="true"
-    android:paddingHorizontal="16dp"
-    android:paddingVertical="20dp"
     >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="20dp"
+        >
+
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,6 +59,10 @@
         android:background="@drawable/fav_star_black"
         app:backgroundTint="@null"
         />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 
